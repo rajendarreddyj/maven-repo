@@ -1,15 +1,12 @@
 # maven-repo
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://raw.githubusercontent.com/rajendarreddyj/maven-repo/master/LICENSE)
 My Maven Repository
 
 ## To Install To Maven Repository
-```
-mvn install:install-file -DgroupId=[group-id] -DartifactId=[artifact-id] -Dversion=[version] -Dpackaging=[packaging-format]-Dfile=[path-to-file] -DlocalRepositoryPath=[path-to-the-cloned-repository]
-```
+`mvn install:install-file -DgroupId=[group-id] -DartifactId=[artifact-id] -Dversion=[version] -Dpackaging=[packaging-format]-Dfile=[path-to-file] -DlocalRepositoryPath=[path-to-the-cloned-repository]`
 
 ## In my case this will be
-```
-mvn install:install-file -DgroupId=com.rajendarreddyj -DartifactId=test -Dversion=1.0 -Dpackaging=jar -Dfile=/apps/sourceCode/git/rajendarreddyj/test.jar -DlocalRepositoryPath=/apps/sourceCode/git/rajendarreddyj/maven-repo
-```
+`mvn install:install-file -DgroupId=com.rajendarreddyj -DartifactId=test -Dversion=1.0 -Dpackaging=jar -Dfile=/apps/sourceCode/git/rajendarreddyj/test.jar -DlocalRepositoryPath=/apps/sourceCode/git/rajendarreddyj/maven-repo`
 
 ## Set Repository in pom
 ```
