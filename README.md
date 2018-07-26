@@ -10,3 +10,14 @@ mvn install:install-file -DgroupId=[group-id] -DartifactId=[artifact-id] -Dversi
 `
 mvn install:install-file -DgroupId=com.rajendarreddyj -DartifactId=test -Dversion=1.0 -Dpackaging=jar -Dfile=/apps/sourceCode/git/rajendarreddyj/test.jar -DlocalRepositoryPath=/apps/sourceCode/git/rajendarreddyj/maven-repo
 `
+
+## Set Repository in pom
+`
+<!-- add GitHub rajendarreddyj maven-repo to repositories -->
+<repositories>
+  <repository>
+    <id>github-cdcgov</id>
+    <url>https://github.com/rajendarreddyj/maven-repo/raw/master/</url>
+  </repository>
+</repositories>
+`
