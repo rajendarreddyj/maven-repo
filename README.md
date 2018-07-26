@@ -16,7 +16,7 @@ mvn install:install-file -DgroupId=com.rajendarreddyj -DartifactId=test -Dversio
 <!-- add GitHub rajendarreddyj maven-repo to repositories -->
 <repositories>
   <repository>
-    <id>github-cdcgov</id>
+    <id>github-maven-repo</id>
     <url>https://github.com/rajendarreddyj/maven-repo/raw/master/</url>
   </repository>
 </repositories>
